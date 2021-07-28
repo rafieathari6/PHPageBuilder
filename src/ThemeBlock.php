@@ -193,12 +193,12 @@ class ThemeBlock
     public function getThumbPath()
     {
         $blockThumbsFolder = $this->theme->getFolder() . '/public/block-thumbs/';
-        return $blockThumbsFolder . md5($this->blockSlug) . '/' . md5(file_get_contents($this->getViewFile())) . '.jpg';
+        return $blockThumbsFolder . $this->blockSlug . '/thumbs.jpg';
     }
 
     public function getThumbUrl()
     {
-        return phpb_theme_asset('block-thumbs/' . md5($this->blockSlug) . '/' . md5(file_get_contents($this->getViewFile())) . '.jpg');
+        return phpb_theme_asset('block-thumbs/' . $this->blockSlug . '/thumbs.jpg');
     }
 
     /**
