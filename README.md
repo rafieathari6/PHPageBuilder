@@ -4,7 +4,7 @@
 # PHPagebuilder
 > PHPagebuilder is a drag and drop pagebuilder to manage pages in any PHP project.
 
-PHPagebuilder can be used as an ultra lightweight CMS to quickly spin up new websites, or can be integrated into existing projects or your favorite frameworks (such as [this version](https://github.com/HansSchouten/Laravel-Pagebuilder) for Laravel). The server-side code does not depend on any other libraries and is blazing fast. It includes an optional website manager with a [Bootstrap UI](https://getbootstrap.com) and integrates the most popular open source drag and drop pagebuilder: [GrapesJS](https://grapesjs.com/). This package is made with customization in mind, allowing you to configure, disable or replace any of its modules.
+PHPagebuilder can be used as an ultra lightweight CMS to quickly spin up new websites, or can be integrated into existing projects or your favorite frameworks (such as [this version](https://github.com/rafieathari6/Laravel-Pagebuilder) for Laravel). The server-side code does not depend on any other libraries and is blazing fast. It includes an optional website manager with a [Bootstrap UI](https://getbootstrap.com) and integrates the most popular open source drag and drop pagebuilder: [GrapesJS](https://grapesjs.com/). This package is made with customization in mind, allowing you to configure, disable or replace any of its modules.
 
 ## Table of Contents
 - [How does it help me?](#how-does-it-help-me)
@@ -46,14 +46,14 @@ To install PHPagebuilder you either follow the quick start path, for quickly spi
 
 ### Quick start :rocket:
 
-If you want to quickly start a new project with drag and drop page management functionality, you can download the [boilerplate](https://github.com/HansSchouten/PHPagebuilder-boilerplate) project structure and follow the steps over there.
+If you want to quickly start a new project with drag and drop page management functionality, you can download the [boilerplate](https://github.com/rafieathari6/PHPagebuilder-boilerplate) project structure and follow the steps over there.
 
 ### Integrate into existing project or framework
 
 #### Add code with Composer
 If you are using Composer for managing PHP dependencies, you can simply run:
 ```
-composer require hansschouten/phpagebuilder
+composer require rafieathari6/phpagebuilder
 ```
 
 Next, the PHPagebuilder can be initialised using the following PHP code:

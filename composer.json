@@ -1,10 +1,10 @@
 {
-    "name": "hansschouten/phpagebuilder",
+    "name": "rafieathari6/phpagebuilder",
     "description": "A drag and drop pagebuilder to manage pages in any PHP project.",
     "keywords": [
         "pagebuilder"
     ],
-    "homepage": "https://github.com/HansSchouten/PHPagebuilder",
+    "homepage": "https://github.com/rafieathari6/PHPagebuilder",
     "type": "library",
     "license": "MIT",
     "authors": [
